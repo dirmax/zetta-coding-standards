@@ -19,7 +19,12 @@
     <rule ref="Squiz.ControlStructures.LowercaseDeclaration"/>
     <rule ref="Squiz.PHP.LowercasePHPFunctions"/>
     <rule ref="Squiz.Scope.MemberVarScope"/>
-    <rule ref="Squiz.Strings.ConcatenationSpacing"/>
+    <rule ref="Squiz.Strings.ConcatenationSpacing">
+        <properties>
+            <property name="spacing" value="1"/>
+            <property name="ignoreNewlines" value="true"/>
+        </properties>
+    </rule>
     <rule ref="Squiz.Functions.LowercaseFunctionKeywords"/>
     <rule ref="Squiz.WhiteSpace.OperatorSpacing">
         <properties>
